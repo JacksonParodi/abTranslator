@@ -7,7 +7,7 @@ namespace AlBhedTranslator
     {
         private static void Main(string[] args)
         {
-            //by default, the translator will translate from Al Bhed to English
+            //by default, the translator will translate from English to Al Bhed
             bool ABtoEN = false;
 
             if (args.Length == 0 || args[0] == "-h")
